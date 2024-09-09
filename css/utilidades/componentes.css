@@ -19,6 +19,8 @@
   text-transform: uppercase;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 /* max content diz que ele tera o tamanho maximo dele independente de outras coisas */
 
@@ -71,6 +73,11 @@
 .botao.seta:hover::after {
   transform: translateX(4px);
 }
+
+/* ------------------------------------------------------------------------------- */
+/* botao formulario */
+
+
 
 /* ------------------------------------------------------------------------------- */
 
